@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://freakzone.net/gordon/src/%{name}-%{version}.tar.gz
+# Source0-md5:	5e98c6cd568f3639603120c1f4a009e2
 Patch0:		%{name}-Makefile.patch
 URL:		http://freakzone.net/gordon/
 BuildRequires:	libpng-devel
