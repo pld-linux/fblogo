@@ -1,0 +1,20 @@
+diff -burN fblogo-0.5.0/Makefile fblogo-0.5.0-pld/Makefile
+--- fblogo-0.5.0/Makefile	Sat Aug 17 16:01:57 2002
++++ fblogo-0.5.0-pld/Makefile	Sat Dec 28 20:10:43 2002
+@@ -3,12 +3,12 @@
+ FLAGS = -g -O2 -W -Wall -DPNG_SETJMP_NOT_SUPPORTED
+ 
+ INSTALL = /usr/bin/install
+-INSTALL_FILE    = $(INSTALL) -p    -o root -g root  -m  644
+-INSTALL_PROGRAM = $(INSTALL) -p    -o root -g root  -m  755
+-INSTALL_SCRIPT  = $(INSTALL) -p    -o root -g root  -m  755
++INSTALL_FILE    = $(INSTALL) -p -m  644
++INSTALL_PROGRAM = $(INSTALL) -p -m  755
++INSTALL_SCRIPT  = $(INSTALL) -p -m  755
+ 
+ DESTDIR =
+-PREFIX = /usr/local
++PREFIX = /usr
+ BINDIR = ${PREFIX}/bin
+ MANDIR = ${PREFIX}/share/man
+ 
