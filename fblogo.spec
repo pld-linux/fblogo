@@ -2,7 +2,7 @@ Summary:	Create your own fblogo shown on system start
 Summary(pl):	Narzêdzie do tworzenia w³asnego logo wy¶wietlanego podczas startu systemu
 Name:		fblogo
 Version:	0.5.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Console
 Source0:	http://freakzone.net/gordon/src/%{name}-%{version}.tar.gz
@@ -42,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES README
-%{_bindir}/fblogo*
+%attr(755,root,root) %{_bindir}/fblogo*
 %{_mandir}/man1/fblogo*.1*
