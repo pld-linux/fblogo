@@ -9,7 +9,6 @@ Source0:	http://freakzone.net/gordon/src/%{name}-%{version}.tar.gz
 # Source0-md5:	f60cb2a3378bb392c86ea6e4f8006cc0
 Patch0:		%{name}-Makefile.patch
 URL:		http://freakzone.net/gordon/
-BuildRequires:	glibc-devel
 BuildRequires:	libpng-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
