@@ -3,7 +3,7 @@ Summary(pl):	Narzêdzie do tworzenia w³asnego logo wy¶wietlanego podczas startu s
 Name:		fblogo
 Version:	0.5.0
 Release:	1
-URL:		http://freakzone.net/gordon
+URL:		http://freakzone.net/gordon/
 License:	GPL
 Group:		Applications/Console
 Source0:	http://freakzone.net/gordon/src/%{name}-%{version}.tar.gz
