@@ -39,7 +39,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %doc CHANGES README
 %{_bindir}/fblogo*
