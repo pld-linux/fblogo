@@ -1,5 +1,5 @@
 Summary:	Create your own fblogo shown on system start
-Summary(pl.UTF-8):   Narzędzie do tworzenia własnego logo wyświetlanego podczas startu systemu
+Summary(pl.UTF-8):	Narzędzie do tworzenia własnego logo wyświetlanego podczas startu systemu
 Name:		fblogo
 Version:	0.5.2
 Release:	2
