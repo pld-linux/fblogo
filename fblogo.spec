@@ -1,5 +1,5 @@
 Summary:	Create your own fblogo shown on system start
-Summary(pl):	Narzêdzie do tworzenia w³asnego logo wy¶wietlanego podczas startu systemu
+Summary(pl.UTF-8):   NarzÄ™dzie do tworzenia wÅ‚asnego logo wyÅ›wietlanego podczas startu systemu
 Name:		fblogo
 Version:	0.5.2
 Release:	2
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 With this program, you can convert your favourite image to framebuffer
 logo, which you can apply to your kernel sources then.
 
-%description -l pl
-Korzystaj±c z tego programu, mo¿na przekszta³ciæ ulubiony obrazek na
+%description -l pl.UTF-8
+KorzystajÄ…c z tego programu, moÅ¼na przeksztaÅ‚ciÄ‡ ulubiony obrazek na
 logo framebuffera.
 
 %prep
